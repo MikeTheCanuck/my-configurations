@@ -1,0 +1,18 @@
+# This is Git's per-user configuration file.
+[user]
+# Please adapt and uncomment the following lines:
+        name = Mike Lonergan
+        email = {insert email address}
+[core]
+        editor = nano
+        excludesfile = /Users/mike/.gitignore_global
+[difftool "sourcetree"]
+        cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+        path =
+[mergetool "sourcetree"]
+        cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$$
+        trustExitCode = true
+[alias]
+co = checkout
+ci = commit
+rb = rebase

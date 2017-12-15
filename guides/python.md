@@ -68,5 +68,5 @@ Traceback (most recent call last):
     mkdir(name, mode)
 OSError: [Errno 13] Permission denied: '/Library/Python/2.7/site-packages/pip-9.0.1.dist-info'
 ```
-
+...until you run it as `sudo python get-pip.py`)
 6. (Install pylint in a way that it can be consumed by VSCode)
