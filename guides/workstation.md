@@ -12,7 +12,7 @@
 9. Use my `.gitconfig` file - and don't forget to update the email address - with apologies to [stackoverflow ideas here](https://stackoverflow.com/questions/30024353/how-to-use-visual-studio-code-as-default-editor-for-git#36644561):
 10. Enable git autocomplete with this command and the modified dotfiles in this repo:
 `curl -O https://raw.github.com/git/git/master/contrib/completion/git-completion.bash`
-11. Install yarn via `brew install yarn`.
+11. Install yarn via `brew install yarn --without-node`.
 12. Configure yarn to install its global packages via `yarn config set prefix /usr/local/` via [this article](http://www.gavinorland.com/web/installing-global-npm-packages-with-yarn/).
 13. Install NCU via `yarn global add npm-check-updates`.
 14. Install watchman to enable `yarn test` (`npm test`) in React apps built with `create-react-app` (via [here](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md#troubleshooting): `brew update && brew install watchman`
