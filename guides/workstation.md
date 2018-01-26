@@ -19,3 +19,7 @@
 15. Install current ruby with `brew install ruby`.
 16. Update system with `sudo gem update --system` (it errors with "You don't have write permissions for the /Library/Ruby/Gems/2.3.0 directory" if you don't use `sudo`).
 17. Install Travis CLI with `gem install travis -v 1.8.8 --no-rdoc --no-ri` via [this README](https://github.com/travis-ci/travis.rb#installation) and [this SO hint](https://stackoverflow.com/questions/14607193/installing-gem-or-updating-rubygems-fails-with-permissions-error/14607772#comment63133055_14607772).
+18. Install Insomnia REST client (replacement for Postman): `brew cask install insomnia`.
+19. Open chrome://flags/#autoplay-policy and select "Document user activation is required", to prevent video autoplay.
+20. Install **Virtualbox** with `brew cask install virtualbox`.
+21. Install Clean Disk from https://macdaddy.io/cleandisk/
