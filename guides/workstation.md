@@ -23,3 +23,4 @@
 19. Open chrome://flags/#autoplay-policy and select "Document user activation is required", to prevent video autoplay.
 20. Install **Virtualbox** with `brew cask install virtualbox`.
 21. Install Clean Disk from https://macdaddy.io/cleandisk/
+22. Wire up `.ssh/config` file with multiple Git Identities https://stackoverflow.com/questions/7927750/specify-an-ssh-key-for-git-push-for-a-given-domain
