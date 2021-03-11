@@ -27,3 +27,4 @@
 23. Install **ripgrep** using `brew install rg`.
 24. Install an updated `curl` using `brew install curl`, then adding `export PATH... >> ~/.bash_profile` to ensure Terminal can find the recent one.
 25. Install **blueutil** (for disable/enable Bluetooth via Terminal) using `brew install blueutil`.
+26. Install **hidden** (to hide icons from the macOS menu bar) via https://github.com/dwarvesf/hidden.
