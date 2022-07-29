@@ -30,3 +30,4 @@
 26. Install **hidden** (to hide icons from the macOS menu bar) via https://github.com/dwarvesf/hidden.
 27. Install **onyx** https://titanium-software.fr/en/onyx.html to tweak various macOS settings like Screenshots folder
 28. Install AlDente to override the macOS ML target of 80% battery charge (e.g. for laptops that have no "pattern" for discharge/recharge, like those that are plugged in 99% of the week) https://github.com/davidwernhart/AlDente
+29. Install UTM to run virtual machines https://mac.getutm.app/
