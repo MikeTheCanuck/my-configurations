@@ -70,3 +70,6 @@ OSError: [Errno 13] Permission denied: '/Library/Python/2.7/site-packages/pip-9.
 ```
 ...until you run it as `sudo python get-pip.py`)
 6. (Install pylint in a way that it can be consumed by VSCode)
+
+And then we have the recent removal of `python` from MacOS 12.3, so a little hackery is needed to make many dependencies work again:
+https://stackoverflow.com/questions/71591971/how-can-i-fix-the-zsh-command-not-found-python-error-macos-monterey-12-3/71657414#71657414
