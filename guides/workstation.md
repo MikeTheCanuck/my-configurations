@@ -1,10 +1,11 @@
 # Config for personal computer where tech stuff happens
 
-1. Type `cmd + space` and launch `Xcode`. This should install additional required components and will prompt you for the license approval.
-2. Reboot the workstation.
-3. In Terminal install `xcode-select --install`: this will confirm that xcode developer tools are properly installed.
-4. `sudo xcodebuild -license accept`: this will confirm that the xcode eula has been approved.
-5. Install [homebrew](http://brew.sh/):
+1. Enable TouchID to approve `sudo` commands: https://austencam.com/posts/using-touchid-with-sudo-in-terminal-or-iterm
+2. Type `cmd + space` and launch `Xcode`. This should install additional required components and will prompt you for the license approval.
+4. Reboot the workstation.
+5. In Terminal install `xcode-select --install`: this will confirm that xcode developer tools are properly installed.
+6. `sudo xcodebuild -license accept`: this will confirm that the xcode eula has been approved.
+7. Install [homebrew](http://brew.sh/):
 `ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
 6. Run `brew doctor` and make sure it reports `Your system is ready to brew`.
 7. Update brew via `brew update`.
